@@ -40,19 +40,14 @@ from multiple devices, both locally and remotely.
   credentials, controlled firewall rules)
 
 ## Screenshots
-<img width="910" height="274" alt="samba nmb daemon" src="https://github.com/user-attachments/assets/e16983c2-e3c2-4b95-8736-862db2206154" />
-
-<img width="1089" height="337" alt="smb status" src="https://github.com/user-attachments/assets/b51356d8-21a8-413d-811c-a732ef417553" />
-<img width="979" height="801" alt="testparm" src="https://github.com/user-attachments/assets/32b562bd-510a-4d8b-8112-d36a784733f8" />
-<img width="813" height="133" alt="local host" src="https://github.com/user-attachments/assets/a7311af6-42f0-4c53-a50c-8e5b13fa5226" />
-
-*(Add: VM running in VirtualBox, terminal output of `ufw status` and Samba shares
-listed, File Explorer/CIFS mount showing a successful connection, Tailscale device
-list showing all three connected)*
+<img width="910" height="274" alt="samba nmb daemon" src="https://github.com/user-attachments/assets/e16983c2-e3c2-4b95-8736-862db2206154" /> sudo systemctl status nmbd
+<img width="1089" height="337" alt="smb status" src="https://github.com/user-attachments/assets/b51356d8-21a8-413d-811c-a732ef417553" /> sudo smbstatus
+<img width="979" height="801" alt="testparm" src="https://github.com/user-attachments/assets/32b562bd-510a-4d8b-8112-d36a784733f8" /> Testparm
+<img width="813" height="133" alt="local host" src="https://github.com/user-attachments/assets/a7311af6-42f0-4c53-a50c-8e5b13fa5226" /> Localhost
 
 ## Notes / what I'd do differently
 
-*(Optional — e.g. "Would document the Samba troubleshooting process itself next time,
-since debugging why shares broke was actually the most useful part of the project,"
-or "Considering upgrading hardware to eventually self-host an AI assistant on the
-same server.")*
+Optional — Would document the Samba troubleshooting process itself next time,
+since debugging why shares broke was actually the most useful part of the project
+or Considering upgrading hardware to eventually self-host an AI assistant on the
+same server.
